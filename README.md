@@ -55,9 +55,6 @@ You can create these icons or replace them with your own designs.
 
 This extension was developed as a capstone project for BE IT Engineering, focusing on using machine learning to detect dark patterns in web design.
 
-## License
-
-This project is for educational purposes.
 
 ## Learn More
 

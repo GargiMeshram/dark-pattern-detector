@@ -35,41 +35,6 @@ A browser extension that automatically detects dark patterns on any webpage you 
 5. Click "Highlight All" to show all detected patterns at once
 6. Hover over highlighted sections to see information about the dark pattern
 
-## Version Management
-
-This extension uses semantic versioning (MAJOR.MINOR.PATCH):
-
-- **MAJOR**: Incompatible API changes
-- **MINOR**: New features in a backward-compatible manner
-- **PATCH**: Bug fixes in a backward-compatible manner
-
-### Version Scripts
-
-Two scripts are provided to help manage versions:
-
-1. **version-bump.js**: Updates the version in manifest.json
-   ```
-   node version-bump.js [patch|minor|major]
-   ```
-
-2. **create-backup.js**: Creates a backup ZIP of the current version
-   ```
-   npm install archiver  # First-time setup
-   node create-backup.js [custom-name]
-   ```
-
-### Rollback Procedure
-
-If you need to roll back to a previous version:
-
-1. Unzip the backup file of the version you want to restore
-2. Load the unpacked extension in Chrome developer mode
-3. Test thoroughly to ensure it works as expected
-
-### Version History
-
-See the [CHANGELOG.md](CHANGELOG.md) file for a detailed version history.
-
 ## Icons
 
 The extension requires three icon sizes:
